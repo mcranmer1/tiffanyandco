@@ -1,0 +1,140 @@
+// Framework
+@import 'bulma';
+
+// Light Gallery Base Styling
+@import 'lightgallery';
+// Light Gallery Animations
+@import 'lg-transitions';
+
+@import "mediaplayer.min";
+
+$primary-color: #81D8D0;
+
+
+nav {
+  padding: 3% 0% 3% 0%;
+}
+
+nav a {
+  padding-top: 2%;
+  padding-right: 3%;
+  color: black;
+}
+
+.lovenav {
+  padding-left: 5%;
+}
+
+.title {
+  font-size: 1.5em;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 1px solid $primary-color;
+}
+
+.intro {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.couple {
+  width: 100%;
+}
+
+.love {
+  position: absolute;
+  top: 80%;
+  right: 44%;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 2px 6px black;
+}
+
+.mainring {
+  width: 400px;;
+  height: 400px;
+}
+
+#gallery-1 {
+  margin-top: 4%;
+}
+
+p {
+  padding-top: 2%;
+  font-family: 'EB Garamond', serif;
+}2
+
+.button {
+  margin: 2%;
+}
+
+.titles {
+  font-size: 1.25em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.subtitle {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5em;
+}
+
+.blue {
+  background-color: $primary-color;
+}
+
+.white {
+  background-color: white;
+  border: 1px solid $primary-color;
+}
+
+.table {
+  margin-top: 3%;
+}
+
+.contact {
+  margin-top: 2%;
+  border: 1px solid $primary-color;
+}
+
+.size {
+  background-color: white;
+}
+
+
+
+// Light Gallery
+.lg-toolbar {
+  background-color: $primary-color;
+}
+
+.lg-thumb-outer {
+  background-color: $primary-color;
+}
+
+.lg-outer .lg-thumb-outer {
+  background-color: $primary-color;
+}
+
+.lg-backdrop {
+  background-color: white;
+}
+
+.lg-sub-html {
+  background-color: white;
+  color: $primary-color;
+}
+
+.lg-actions .lg-next, .lg-actions .lg-prev {
+  background-color: white;
+  color: $primary-color;
+}
+
+.lg-outer .lg-toogle-thumb {
+  background-color: $primary-color;
+}
+
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
+  border: 1px solid grey;
+}
